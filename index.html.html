@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<title>CALCULATOR</title>
+<link rel="stylesheet" href="calculator.css">
+<body>
+    <div class="container">
+        <h1>WELCOME TO CALCULATOR</h1>
+
+        <input placeholder="0" class="js-number"></input>
+
+        <button onclick="reset('AC'); " class="js-op">AC</button>
+        <button onclick="backspaceFunction();" class="js-op">DEL</button>
+        <button onclick="symFunction('/');" class="js-op">/</button>
+        <button onclick="symFunction('*');" class="js-op">*</button>
+        <button onclick="numFunction('7');" class="js-num">7</button>
+        <button onclick="numFunction('8');" class="js-num">8</button>
+        <button onclick="numFunction('9');" class="js-num">9</button>
+        <button onclick="symFunction('+');" class="js-op">+</button>
+        <button onclick="numFunction('4');" class="js-num">4</button>
+        <button onclick="numFunction('5');" class="js-num">5</button>
+        <button onclick="numFunction('6');" class="js-num">6</button>
+        <button onclick="symFunction('-');" class="js-op">-</button>
+   
+        <div class="ott">
+        <button onclick="numFunction('1');" class="js-num">1</button>
+        <button onclick="numFunction('2');" class="js-num">2</button>
+        <button onclick="numFunction('3');" class="js-num">3</button>
+    </div>
+<div class="extra">
+        <div class="row1">
+            <button id="equal" onclick="calculation();" class="js-op">=</button>
+        </div>
+
+
+        <div class="row2">
+            <button id="zero" onclick="numFunction('0');" class="js-num">0</button>
+        </div>
+
+        <div class="row3">
+            <button id="dot" onclick="
+                dotFunction();" class="js-op">.</button>
+        </div>
+</div>
+</div>
+
+
+
+<script src="calculator.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(27, 26, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    background-color: rgb(49, 44, 44);
+    box-shadow: 0px 0px 50px rgb(153, 128, 128);
+    border-radius: 20px;
+    width: 500px;
+    height: 550px;
+    text-align: center;
+    color: rgb(0, 255, 42);
+
+    
+}
+input {
+    margin-top: 10px;
+    margin-bottom: 30px;
+        width: 90%;
+        max-width: 500px; 
+        padding: 10px;
+        border-radius: 10px;
+        height: 30px;
+        font-size: larger;
+        font-weight: 500;
+        box-shadow: 0px 0px 10px rgb(97, 94, 94);
+    border-color: rgb(71, 71, 175);
+    border-width: 3px;
+    }
+button{
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: 500;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(97, 94, 94);
+    border-color: rgb(71, 71, 175);
+    border-width: 3px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+.js-num:active {
+background-color: rgb(46, 194, 71);
+opacity: 0.1; 
+}
+.js-op:active{
+    background-color: rgb(46, 194, 71);
+    opacity: 0.1; 
+}
+button.extra:active{
+    background-color: rgb(46, 194, 71);
+    opacity: 0.1;  
+}
+
+
+
+.ott{
+    margin-left: -123px;
+    
+}
+
+.row1{
+    margin-left: 372px;
+    margin-top: -70px;
+}
+#equal{
+    height: 120px;
+    
+
+}
+.row2{
+    margin-top: -70px;
+    margin-left: -245px;
+}
+
+#zero{
+    width: 225px;
+
+    
+
+}
+.row3{
+    margin-top: -80px;
+    margin-left: 126px;
+}
+#dot{
+    margin-top: 20px;
+}
+
+
+
+
