@@ -44,7 +44,7 @@ button{
     border-color: rgb(71, 71, 175);
     border-width: 3px;
     cursor: pointer;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.1s ease;
 }
 .js-num:active {
 background-color: rgb(46, 194, 71);
